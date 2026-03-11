@@ -48,7 +48,7 @@ function formatTimeAgo(timestamp: string): string {
   const diffMs = now.getTime() - then.getTime();
   const diffMins = Math.floor(diffMs / 60000);
   const diffHours = Math.floor(diffMins / 60);
-  
+
   if (diffMins < 1) return 'Just now';
   if (diffMins < 60) return `${diffMins}m ago`;
   if (diffHours < 24) return `${diffHours}h ago`;
@@ -58,7 +58,13 @@ function formatTimeAgo(timestamp: string): string {
 function AlertCard({ alert, index }: { alert: Alert; index: number }) {
   const typeStyle = typeStyles[alert.type];
   const severityStyle = severityStyles[alert.severity];
-  
+
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
@@ -90,14 +96,14 @@ function AlertCard({ alert, index }: { alert: Alert; index: number }) {
             <span>{alert.sourceIcon}</span>
             <span>{alert.source}</span>
             <span>•</span>
-            <span>{formatTimeAgo(alert.timestamp)}</span>
+            <span suppressHydrationWarning>{isMounted ? formatTimeAgo(alert.timestamp) : ''}</span>
           </div>
         </div>
-        
+
         {/* Content */}
         <h3 className="text-white font-semibold mb-1">{alert.title}</h3>
         <p className="text-sm text-gray-300 leading-relaxed">{alert.description}</p>
-        
+
         {/* Location */}
         {alert.location && (
           <div className="mt-2 flex items-center gap-2 text-xs text-gray-400">
@@ -110,10 +116,10 @@ function AlertCard({ alert, index }: { alert: Alert; index: number }) {
             )}
           </div>
         )}
-        
+
         {/* Link */}
         {alert.url && (
-          <a 
+          <a
             href={alert.url}
             target="_blank"
             rel="noopener noreferrer"
@@ -123,7 +129,7 @@ function AlertCard({ alert, index }: { alert: Alert; index: number }) {
           </a>
         )}
       </div>
-      
+
       {/* Severity indicator */}
       {alert.severity === 'critical' && (
         <div className="absolute top-0 right-0 w-3 h-3">
@@ -135,25 +141,25 @@ function AlertCard({ alert, index }: { alert: Alert; index: number }) {
   );
 }
 
-export default function LiveAlerts({ 
-  alerts, 
-  isLoading = false, 
+export default function LiveAlerts({
+  alerts,
+  isLoading = false,
   onRefresh,
-  maxDisplay = 10 
+  maxDisplay = 10
 }: LiveAlertsProps) {
   const [autoRefresh, setAutoRefresh] = useState(true);
   const displayAlerts = alerts.slice(0, maxDisplay);
-  
+
   // Auto-refresh every 30 seconds
   useEffect(() => {
     if (!autoRefresh || !onRefresh) return;
     const interval = setInterval(onRefresh, 30000);
     return () => clearInterval(interval);
   }, [autoRefresh, onRefresh]);
-  
+
   const criticalCount = alerts.filter(a => a.severity === 'critical').length;
   const highCount = alerts.filter(a => a.severity === 'high').length;
-  
+
   return (
     <div className="space-y-4">
       {/* Header Controls */}
@@ -176,7 +182,7 @@ export default function LiveAlerts({
             </span>
           )}
         </div>
-        
+
         <div className="flex items-center gap-3">
           <label className="flex items-center gap-2 text-xs text-gray-400 cursor-pointer">
             <input
@@ -198,7 +204,7 @@ export default function LiveAlerts({
           )}
         </div>
       </div>
-      
+
       {/* Alerts List */}
       <div className="space-y-3 max-h-[600px] overflow-y-auto custom-scrollbar">
         <AnimatePresence mode="popLayout">
@@ -219,7 +225,7 @@ export default function LiveAlerts({
           )}
         </AnimatePresence>
       </div>
-      
+
       {/* Footer */}
       {alerts.length > maxDisplay && (
         <div className="text-center text-xs text-gray-500 pt-2 border-t border-white/5">

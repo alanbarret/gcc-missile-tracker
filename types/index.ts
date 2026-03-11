@@ -38,6 +38,8 @@ export interface ImpactSite {
   description?: string;
 }
 
+export type CountryCode = 'uae' | 'qatar' | 'kuwait' | 'bahrain';
+
 export interface CountryData {
   country: string;
   countryCode: CountryCode;
