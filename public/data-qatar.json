@@ -38,6 +38,17 @@
       "total": 23
     },
     {
+      "date": "2024-12-18",
+      "label": "18 Dec",
+      "ballisticDetected": 9,
+      "ballisticIntercepted": 8,
+      "ballisticImpacted": 1,
+      "dronesDetected": null,
+      "dronesIntercepted": null,
+      "dronesImpacted": 0,
+      "total": 9
+    },
+    {
       "date": "2026-03-05",
       "label": "5 Mar",
       "ballisticDetected": 14,
@@ -80,14 +91,45 @@
       "total": 12
     }
   ],
-  "impactSites": [],
-  "lastUpdated": "2026-03-11T09:50:53.949Z",
+  "impactSites": [
+    {
+      "name": "منطقة غير مأهولة",
+      "description": "One ballistic missile fell in an unpopulated area"
+    }
+  ],
+  "lastUpdated": "2026-03-11T20:04:51.333Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2031668683265675719"
+      "lastTweetId": "2031823609648279990"
     }
   },
   "alerts": [
+    {
+      "id": "2031823609648279990",
+      "timestamp": "2026-03-11T20:04:32.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Attack on Qatar",
+      "description": "Qatar attacked with 9 ballistic missiles and drones from Iran. Armed forces successfully intercepted all drones and 8 ballistic missiles, with one missile falling in an unpopulated area.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031823609648279990"
+    },
+    {
+      "id": "2031705827082739788",
+      "timestamp": "2026-03-11T12:16:31.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Qatar Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "State of Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031705827082739788"
+    },
     {
       "id": "2031668683265675719",
       "timestamp": "2026-03-11T09:48:55.000Z",
