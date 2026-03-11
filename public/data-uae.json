@@ -50,13 +50,26 @@
     }
   ],
   "impactSites": [],
-  "lastUpdated": "2026-03-11T05:39:58.696Z",
+  "lastUpdated": "2026-03-11T09:14:45.576Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2031529451868323998"
+      "lastTweetId": "2031659443294003289"
     }
   },
   "alerts": [
+    {
+      "id": "2031659443294003289",
+      "timestamp": "2026-03-11T09:12:12.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Air Defences Responding to Iranian Missile and Drone Attack",
+      "description": "UAE air defences are currently intercepting incoming ballistic missiles and drones from Iran. Sounds heard across various areas are from air defence systems and fighter jets intercepting the threats.",
+      "location": "Various areas across UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031659443294003289"
+    },
     {
       "id": "2031529451868323998",
       "timestamp": "2026-03-11T00:35:39.000Z",
