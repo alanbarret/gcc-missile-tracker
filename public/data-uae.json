@@ -1,0 +1,126 @@
+{
+  "country": "UAE",
+  "countryCode": "uae",
+  "flag": "🇦🇪",
+  "coordinates": {
+    "lat": 24.4539,
+    "lng": 54.3773
+  },
+  "cumulative": {
+    "ballisticDetected": 262,
+    "ballisticIntercepted": 241,
+    "ballisticSea": 18,
+    "ballisticImpacted": 3,
+    "cruiseDetected": 8,
+    "cruiseIntercepted": 8,
+    "cruiseSea": 0,
+    "cruiseImpacted": 0,
+    "dronesDetected": 1475,
+    "dronesIntercepted": 1385,
+    "dronesSea": 0,
+    "dronesImpacted": 90,
+    "killed": 0,
+    "injured": 0
+  },
+  "daily": [
+    {
+      "date": "2026-03-09",
+      "label": "9 Mar",
+      "ballisticDetected": 15,
+      "ballisticIntercepted": 12,
+      "ballisticSea": 3,
+      "ballisticImpacted": 0,
+      "cruiseDetected": 0,
+      "cruiseIntercepted": 0,
+      "dronesDetected": 18,
+      "dronesIntercepted": 17,
+      "dronesImpacted": 1,
+      "total": 33
+    },
+    {
+      "date": "2026-03-10",
+      "label": "10 Mar",
+      "ballisticDetected": 9,
+      "ballisticIntercepted": 8,
+      "ballisticImpacted": 1,
+      "dronesDetected": 35,
+      "dronesIntercepted": 26,
+      "dronesImpacted": 9,
+      "total": 44
+    }
+  ],
+  "impactSites": [],
+  "lastUpdated": "2026-03-11T05:39:58.696Z",
+  "sources": {
+    "modgovae": {
+      "lastTweetId": "2031529451868323998"
+    }
+  },
+  "alerts": [
+    {
+      "id": "2031529451868323998",
+      "timestamp": "2026-03-11T00:35:39.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "critical",
+      "title": "UAE Intercepts Iranian Missiles and Drones",
+      "description": "UAE air defenses are currently dealing with missile and drone attacks from Iran. Defense Ministry confirms sounds heard across various areas are result of air defense systems intercepting ballistic missiles and fighter jets intercepting drones.",
+      "location": "Various areas across UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031529451868323998"
+    },
+    {
+      "id": "2031476797179871469",
+      "timestamp": "2026-03-10T21:06:26.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "missile",
+      "severity": "critical",
+      "title": "UAE Air Defenses Engaging Incoming Ballistic Missiles from Iran",
+      "description": "UAE air defense systems are currently dealing with a barrage of ballistic missiles coming from Iran. Ministry of Defense confirms full readiness to handle all threats to ensure protection of the country and safety of citizens and residents.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031476797179871469"
+    },
+    {
+      "id": "2031360680260153718",
+      "timestamp": "2026-03-10T13:25:01.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "critical",
+      "title": "UAE Air Defences Successfully Intercept Iranian Missiles and Drones",
+      "description": "UAE air defense systems successfully intercepted Iranian ballistic missiles, cruise missiles, and UAV attacks",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031360680260153718"
+    },
+    {
+      "id": "2031357302004133965",
+      "timestamp": "2026-03-10T13:11:36.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "critical",
+      "title": "UAE intercepts 8 ballistic missiles and 26 UAVs",
+      "description": "UAE air defenses detected 9 ballistic missiles (8 destroyed, 1 fell into sea) and 35 UAVs (26 intercepted, 9 fell within country)",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031357302004133965"
+    },
+    {
+      "id": "2031350981221622002",
+      "timestamp": "2026-03-10T12:46:29.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "critical",
+      "title": "UAE Air Defenses Intercept Multiple Ballistic Missiles and Drones",
+      "description": "UAE air defenses intercepted 8 of 9 ballistic missiles and 26 of 35 drones on March 10, 2026. One missile fell into the sea, remaining drones' status unclear.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031350981221622002"
+    }
+  ]
+}

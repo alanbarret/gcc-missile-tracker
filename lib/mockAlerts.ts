@@ -1,0 +1,52 @@
+import { Alert } from '@/components/LiveAlerts';
+
+export const mockAlerts: Alert[] = [
+    {
+        id: '1',
+        timestamp: new Date().toISOString(),
+        source: 'Ministry of Defence',
+        sourceIcon: '🛡️',
+        type: 'missile',
+        severity: 'critical',
+        title: 'Ballistic Missile Detected',
+        description: 'Multiple ballistic missile launches detected heading towards the designated safe zone. Intercept protocols activated.',
+        location: 'Northern Airspace',
+        coordinates: { lat: 25.276, lng: 55.296 },
+        verified: true,
+    },
+    {
+        id: '2',
+        timestamp: new Date(Date.now() - 15 * 60000).toISOString(),
+        source: 'Central Command',
+        sourceIcon: '📡',
+        type: 'drone',
+        severity: 'high',
+        title: 'UAV Incursion Attempt',
+        description: 'Unidentified drone formation detected. Tracking engaged.',
+        location: 'Eastern Border',
+        verified: true,
+    },
+    {
+        id: '3',
+        timestamp: new Date(Date.now() - 45 * 60000).toISOString(),
+        source: 'Air Defense Network',
+        sourceIcon: '🎯',
+        type: 'interception',
+        severity: 'medium',
+        title: 'Successful Interception',
+        description: 'Air defense systems successfully intercepted a hostile projectile.',
+        location: 'Western Sector',
+        verified: true,
+    },
+    {
+        id: '4',
+        timestamp: new Date(Date.now() - 120 * 60000).toISOString(),
+        source: 'Public Warning System',
+        sourceIcon: '🚨',
+        type: 'siren',
+        severity: 'low',
+        title: 'All Clear Signal',
+        description: 'Siren deactivated in sector 4. Situation normalized.',
+        verified: true,
+    }
+];

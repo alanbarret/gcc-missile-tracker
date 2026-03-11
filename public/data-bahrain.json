@@ -1,0 +1,51 @@
+{
+  "country": "Bahrain",
+  "countryCode": "bahrain",
+  "flag": "🇧🇭",
+  "coordinates": {
+    "lat": 26.0667,
+    "lng": 50.5577
+  },
+  "cumulative": {
+    "ballisticDetected": 102,
+    "ballisticIntercepted": 102,
+    "ballisticSea": 0,
+    "ballisticImpacted": 0,
+    "cruiseDetected": 0,
+    "cruiseIntercepted": 0,
+    "cruiseSea": 0,
+    "cruiseImpacted": 0,
+    "dronesDetected": 173,
+    "dronesIntercepted": 173,
+    "dronesSea": 0,
+    "dronesImpacted": 0,
+    "killed": 0,
+    "injured": 0
+  },
+  "daily": [],
+  "impactSites": [],
+  "lastUpdated": "2026-03-10T02:36:32.502Z",
+  "sources": {
+    "bna_ar": {
+      "lastTweetId": "2031313791338647808"
+    },
+    "BDF_Bahrain": {
+      "lastTweetId": "1933590764035952765"
+    }
+  },
+  "alerts": [
+    {
+      "id": "722004195545608192",
+      "timestamp": "2016-04-18T10:09:49.000Z",
+      "source": "Bahrain Ministry of Defence",
+      "sourceIcon": "🇧🇭",
+      "type": "info",
+      "severity": "medium",
+      "title": "Important Statement Announcement",
+      "description": "Bahrain Defence Force General Command will issue an important statement",
+      "location": "Bahrain",
+      "verified": true,
+      "url": "https://x.com/BDF_Bahrain/status/722004195545608192"
+    }
+  ]
+}

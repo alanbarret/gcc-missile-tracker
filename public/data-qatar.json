@@ -1,0 +1,157 @@
+{
+  "country": "Qatar",
+  "countryCode": "qatar",
+  "flag": "🇶🇦",
+  "coordinates": {
+    "lat": 25.2854,
+    "lng": 51.531
+  },
+  "cumulative": {
+    "ballisticDetected": 41,
+    "ballisticIntercepted": 36,
+    "ballisticSea": 2,
+    "ballisticImpacted": 3,
+    "cruiseDetected": 2,
+    "cruiseIntercepted": 2,
+    "cruiseSea": 0,
+    "cruiseImpacted": 0,
+    "dronesDetected": 20,
+    "dronesIntercepted": 19,
+    "dronesSea": 0,
+    "dronesImpacted": 1,
+    "killed": 0,
+    "injured": 0
+  },
+  "daily": [
+    {
+      "date": "2024-05-20",
+      "label": "20 May",
+      "ballisticDetected": 17,
+      "ballisticIntercepted": 17,
+      "ballisticSea": 0,
+      "ballisticImpacted": 0,
+      "cruiseDetected": 0,
+      "cruiseIntercepted": 0,
+      "dronesDetected": 6,
+      "dronesIntercepted": 6,
+      "dronesImpacted": 0,
+      "total": 23
+    },
+    {
+      "date": "2026-03-05",
+      "label": "5 Mar",
+      "ballisticDetected": 14,
+      "ballisticIntercepted": 13,
+      "ballisticSea": 0,
+      "ballisticImpacted": 1,
+      "cruiseDetected": 0,
+      "cruiseIntercepted": 0,
+      "dronesDetected": 4,
+      "dronesIntercepted": 4,
+      "dronesImpacted": 0,
+      "total": 18
+    },
+    {
+      "date": "2026-03-06",
+      "label": "6 Mar",
+      "ballisticDetected": 0,
+      "ballisticIntercepted": 0,
+      "ballisticSea": 0,
+      "ballisticImpacted": 0,
+      "cruiseDetected": 0,
+      "cruiseIntercepted": 0,
+      "dronesDetected": 10,
+      "dronesIntercepted": 9,
+      "dronesImpacted": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-03-08",
+      "label": "8 Mar",
+      "ballisticDetected": 10,
+      "ballisticIntercepted": 6,
+      "ballisticSea": 2,
+      "ballisticImpacted": 2,
+      "cruiseDetected": 2,
+      "cruiseIntercepted": 2,
+      "dronesDetected": 0,
+      "dronesIntercepted": 0,
+      "dronesImpacted": 0,
+      "total": 12
+    }
+  ],
+  "impactSites": [],
+  "lastUpdated": "2026-03-10T02:21:02.335Z",
+  "sources": {
+    "MOD_Qatar": {
+      "lastTweetId": "2031602654103876063"
+    }
+  },
+  "alerts": [
+    {
+      "id": "2031602654103876063",
+      "timestamp": "2026-03-11T05:26:32.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Qatar's Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031602654103876063"
+    },
+    {
+      "id": "2031443048157028515",
+      "timestamp": "2026-03-10T18:52:19.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Qatar Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031443048157028515"
+    },
+    {
+      "id": "2031404661614199239",
+      "timestamp": "2026-03-10T16:19:47.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Successfully Intercepts 5 Iranian Ballistic Missiles",
+      "description": "Qatar's Ministry of Defence reports that 5 ballistic missiles launched from Iran this Tuesday afternoon were successfully intercepted by Qatari armed forces with no casualties reported.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031404661614199239"
+    },
+    {
+      "id": "2031328683756019863",
+      "timestamp": "2026-03-10T11:17:53.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Qatar Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031328683756019863"
+    },
+    {
+      "id": "2030992408633393596",
+      "timestamp": "2026-03-09T13:01:38.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "critical",
+      "title": "Qatar intercepts Iranian ballistic missiles and drones",
+      "description": "Qatar's Ministry of Defence reports successful interception of 17 ballistic missiles and 6 drones launched by Iran, with no casualties recorded",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2030992408633393596"
+    }
+  ]
+}
