@@ -36,8 +36,7 @@ npm install
 Create `.env.local`:
 
 ```env
-X_BEARER_TOKEN=your_twitter_bearer_token
-GEMINI_API_KEY=your_google_gemini_api_key
+ANTHROPIC_API_KEY=your_antropic_api_key
 ```
 
 ### 3. Run the scraper
