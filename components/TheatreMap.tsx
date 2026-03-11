@@ -79,7 +79,7 @@ export default function TheatreMap({ countries }: TheatreMapProps) {
       />
 
       {/* GCC Countries */}
-      {countries.map((country) => {
+      {countries.filter((c) => c.coordinates?.lat != null && c.coordinates?.lng != null).map((country) => {
         const threats = calculateTotalThreats(country.cumulative);
         const rate = calculateInterceptionRate(country.cumulative);
         const coords: [number, number] = [
@@ -120,27 +120,29 @@ export default function TheatreMap({ countries }: TheatreMapProps) {
 
       {/* Impact sites */}
       {countries.flatMap((country) =>
-        country.impactSites.map((site, idx) => (
-          <Circle
-            key={`${country.countryCode}-impact-${idx}`}
-            center={[site.lat, site.lng]}
-            radius={5000}
-            pathOptions={{
-              color: '#ef4444',
-              fillColor: '#ef4444',
-              fillOpacity: 0.5,
-            }}
-          >
-            <Popup>
-              <div>
-                <strong>Impact Site</strong>
-                <br />
-                {site.date} - {site.type}
-                {site.description && <p>{site.description}</p>}
-              </div>
-            </Popup>
-          </Circle>
-        ))
+        country.impactSites
+          .filter((site) => site.lat != null && site.lng != null)
+          .map((site, idx) => (
+            <Circle
+              key={`${country.countryCode}-impact-${idx}`}
+              center={[site.lat, site.lng]}
+              radius={5000}
+              pathOptions={{
+                color: '#ef4444',
+                fillColor: '#ef4444',
+                fillOpacity: 0.5,
+              }}
+            >
+              <Popup>
+                <div>
+                  <strong>Impact Site</strong>
+                  <br />
+                  {site.date} - {site.type}
+                  {site.description && <p>{site.description}</p>}
+                </div>
+              </Popup>
+            </Circle>
+          ))
       )}
     </MapContainer>
   );
