@@ -81,13 +81,26 @@
     }
   ],
   "impactSites": [],
-  "lastUpdated": "2026-03-10T02:21:02.335Z",
+  "lastUpdated": "2026-03-11T09:50:53.949Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2031602654103876063"
+      "lastTweetId": "2031668683265675719"
     }
   },
   "alerts": [
+    {
+      "id": "2031668683265675719",
+      "timestamp": "2026-03-11T09:48:55.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Qatar Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2031668683265675719"
+    },
     {
       "id": "2031602654103876063",
       "timestamp": "2026-03-11T05:26:32.000Z",
