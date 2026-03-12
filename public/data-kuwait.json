@@ -52,13 +52,52 @@
       "lng": 47.9783
     }
   ],
-  "lastUpdated": "2026-03-08T06:00:00Z",
+  "lastUpdated": "2026-03-12T00:01:22.926Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2031697839793840456"
+      "lastTweetId": "2031857388580426079"
     }
   },
   "alerts": [
+    {
+      "id": "2031857388580426079",
+      "timestamp": "2026-03-11T22:18:46.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Air Defenses Responding to Hostile Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently responding to hostile missile and drone threats. Any explosions heard are the result of air defense systems intercepting hostile targets.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2031857388580426079"
+    },
+    {
+      "id": "2031841560334098735",
+      "timestamp": "2026-03-11T21:15:52.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "medium",
+      "title": "Kuwaiti Air Defense Intercepts Ballistic Missiles",
+      "description": "Kuwaiti air defenses intercepted several ballistic missiles that penetrated airspace heading towards the south of the country, with no damage reported",
+      "location": "Southern Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2031841560334098735"
+    },
+    {
+      "id": "2031827426536231047",
+      "timestamp": "2026-03-11T20:19:42.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Air Defenses Responding to Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosions heard are from air defense systems intercepting targets.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2031827426536231047"
+    },
     {
       "id": "2031475975276372360",
       "timestamp": "2026-03-10T21:03:10.000Z",

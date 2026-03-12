@@ -7,16 +7,16 @@
     "lng": 54.3773
   },
   "cumulative": {
-    "ballisticDetected": 262,
-    "ballisticIntercepted": 241,
+    "ballisticDetected": 268,
+    "ballisticIntercepted": 247,
     "ballisticSea": 18,
     "ballisticImpacted": 3,
     "cruiseDetected": 8,
     "cruiseIntercepted": 8,
     "cruiseSea": 0,
     "cruiseImpacted": 0,
-    "dronesDetected": 1475,
-    "dronesIntercepted": 1385,
+    "dronesDetected": 1514,
+    "dronesIntercepted": 1424,
     "dronesSea": 0,
     "dronesImpacted": 90,
     "killed": 0,
@@ -47,16 +47,66 @@
       "dronesIntercepted": 26,
       "dronesImpacted": 9,
       "total": 44
+    },
+    {
+      "date": "2026-03-11",
+      "label": "11 Mar",
+      "ballisticDetected": 18,
+      "ballisticIntercepted": 18,
+      "ballisticImpacted": 0,
+      "dronesDetected": 117,
+      "dronesIntercepted": 117,
+      "dronesImpacted": 0,
+      "total": 135
     }
   ],
   "impactSites": [],
-  "lastUpdated": "2026-03-11T20:00:38.690Z",
+  "lastUpdated": "2026-03-12T00:00:57.019Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2031792156034416655"
+      "lastTweetId": "2031838830857167323"
     }
   },
   "alerts": [
+    {
+      "id": "2031838830857167323",
+      "timestamp": "2026-03-11T21:05:01.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Successfully Intercepts Iranian Missiles and Drones",
+      "description": "UAE air defenses successfully engaged 6 ballistic missiles, 7 cruise missiles, and 39 UAVs from Iran. All projectiles were intercepted with no impacts reported.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031838830857167323"
+    },
+    {
+      "id": "2031837588127138255",
+      "timestamp": "2026-03-11T21:00:05.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Air Defences Engage Iranian Attack",
+      "description": "UAE air defence systems successfully engaged 6 ballistic missiles, 7 cruise missiles and 39 UAVs launched from Iran",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031837588127138255"
+    },
+    {
+      "id": "2031835999920381964",
+      "timestamp": "2026-03-11T20:53:46.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Air Defenses Intercept Iranian Attack",
+      "description": "UAE air defenses successfully intercepted 6 ballistic missiles, 7 cruise missiles, and 39 drones launched from Iran",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2031835999920381964"
+    },
     {
       "id": "2031792156034416655",
       "timestamp": "2026-03-11T17:59:33.000Z",
