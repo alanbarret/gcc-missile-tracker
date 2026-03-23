@@ -24,6 +24,28 @@
   },
   "daily": [
     {
+      "date": "2024-01-09",
+      "label": "9 Jan",
+      "ballisticDetected": 9,
+      "ballisticIntercepted": 9,
+      "ballisticImpacted": 0,
+      "dronesDetected": null,
+      "dronesIntercepted": null,
+      "dronesImpacted": 0,
+      "total": 9
+    },
+    {
+      "date": "2024-01-17",
+      "label": "17 Jan",
+      "ballisticDetected": 7,
+      "ballisticIntercepted": 6,
+      "ballisticImpacted": 1,
+      "dronesDetected": null,
+      "dronesIntercepted": null,
+      "dronesImpacted": null,
+      "total": 7
+    },
+    {
       "date": "2024-05-20",
       "label": "20 May",
       "ballisticDetected": 17,
@@ -47,6 +69,17 @@
       "dronesIntercepted": null,
       "dronesImpacted": 0,
       "total": 9
+    },
+    {
+      "date": "2024-12-30",
+      "label": "30 Dec",
+      "ballisticDetected": 14,
+      "ballisticIntercepted": 13,
+      "ballisticImpacted": 1,
+      "dronesDetected": null,
+      "dronesIntercepted": null,
+      "dronesImpacted": null,
+      "total": 14
     },
     {
       "date": "2026-03-05",
@@ -95,15 +128,140 @@
     {
       "name": "منطقة غير مأهولة",
       "description": "One ballistic missile fell in an unpopulated area"
+    },
+    {
+      "name": "Unknown location",
+      "description": "One ballistic missile fell/impacted (location cut off in text)"
+    },
+    {
+      "name": "Ras Laffan Industrial City",
+      "description": "Ballistic missile impact caused fire, firefighting operations ongoing"
     }
   ],
-  "lastUpdated": "2026-03-11T20:04:51.333Z",
+  "lastUpdated": "2026-03-23T07:35:10.123Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2031823609648279990"
+      "lastTweetId": "2034432881045520612"
     }
   },
   "alerts": [
+    {
+      "id": "2034432881045520612",
+      "timestamp": "2026-03-19T00:52:51.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Ballistic Missile Attack on Qatar",
+      "description": "Qatar Ministry of Defense announces ballistic missile attack from Iran targeting Ras Laffan Industrial City, causing damage",
+      "location": "Ras Laffan Industrial City",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2034432881045520612"
+    },
+    {
+      "id": "2034352263846825994",
+      "timestamp": "2026-03-18T19:32:30.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "high",
+      "title": "Qatar Intercepts Iranian Ballistic Missiles",
+      "description": "Qatar's Ministry of Defence announces successful interception of 2 ballistic missiles launched by Iran targeting Ras Laffan Industrial City",
+      "location": "Ras Laffan Industrial City",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2034352263846825994"
+    },
+    {
+      "id": "2034344764594672041",
+      "timestamp": "2026-03-18T19:02:42.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Ballistic Missile Attack on Qatar",
+      "description": "Qatar attacked with 5 ballistic missiles from Iran, 4 intercepted, 1 impacted Ras Laffan Industrial City causing fire",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2034344764594672041"
+    },
+    {
+      "id": "2034106635933913141",
+      "timestamp": "2026-03-18T03:16:28.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar intercepts missile attack",
+      "description": "Qatar Ministry of Defense announces armed forces successfully intercepted missile attack targeting Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2034106635933913141"
+    },
+    {
+      "id": "2033984489680982157",
+      "timestamp": "2026-03-17T19:11:06.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Ballistic Missile and Drone Attack on Qatar",
+      "description": "Qatar Ministry of Defence reports Iranian attack with 9 ballistic missiles and drones, all successfully intercepted by Qatari armed forces",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2033984489680982157"
+    },
+    {
+      "id": "2033874790675599709",
+      "timestamp": "2026-03-17T11:55:12.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "high",
+      "title": "Second Wave of Missiles Intercepted",
+      "description": "Qatar Armed Forces successfully intercepted a second wave of missile attacks targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2033874790675599709"
+    },
+    {
+      "id": "2033753499775996300",
+      "timestamp": "2026-03-17T03:53:14.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Qatar Armed Forces Intercept Missile Attack",
+      "description": "Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2033753499775996300"
+    },
+    {
+      "id": "2033619869908779378",
+      "timestamp": "2026-03-16T19:02:14.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Ballistic Missile and Drone Attack on Qatar",
+      "description": "Qatar was attacked with 14 ballistic missiles and a number of drones from Iran. Armed forces successfully intercepted all drones and 13 ballistic missiles, with one missile impacting.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2033619869908779378"
+    },
+    {
+      "id": "2033538016522703129",
+      "timestamp": "2026-03-16T13:36:59.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "interception",
+      "severity": "high",
+      "title": "Second Wave of Missiles Intercepted",
+      "description": "Qatar's Armed Forces successfully intercepted a second wave of missile attacks targeting the State of Qatar",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2033538016522703129"
+    },
     {
       "id": "2031823609648279990",
       "timestamp": "2026-03-11T20:04:32.000Z",
