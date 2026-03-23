@@ -36,6 +36,39 @@
       "dronesIntercepted": 2,
       "dronesImpacted": 3,
       "total": 12
+    },
+    {
+      "date": "2026-03-20",
+      "label": "20 Mar",
+      "ballisticDetected": 1,
+      "ballisticIntercepted": 1,
+      "ballisticImpacted": 0,
+      "dronesDetected": 25,
+      "dronesIntercepted": 15,
+      "dronesImpacted": 10,
+      "total": 26
+    },
+    {
+      "date": "2026-03-21",
+      "label": "21 Mar",
+      "ballisticDetected": 9,
+      "ballisticIntercepted": 9,
+      "ballisticImpacted": 0,
+      "dronesDetected": 4,
+      "dronesIntercepted": 4,
+      "dronesImpacted": 0,
+      "total": 13
+    },
+    {
+      "date": "2026-03-22",
+      "label": "22 Mar",
+      "ballisticDetected": 0,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 7,
+      "dronesIntercepted": 4,
+      "dronesImpacted": 3,
+      "total": 7
     }
   ],
   "impactSites": [
@@ -50,15 +83,166 @@
       "description": "Hit by 1 drone - material damage",
       "lat": 29.3697,
       "lng": 47.9783
+    },
+    {
+      "name": "Outside threat zone",
+      "description": "8 drones fell outside the threat zone"
+    },
+    {
+      "name": "Civilian facilities",
+      "description": "2 civilian facilities were targeted"
     }
   ],
-  "lastUpdated": "2026-03-12T00:01:22.926Z",
+  "lastUpdated": "2026-03-23T08:01:53.087Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2031857388580426079"
+      "lastTweetId": "2035860093246332995"
     }
   },
   "alerts": [
+    {
+      "id": "2035860093246332995",
+      "timestamp": "2026-03-22T23:24:05.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently responding to hostile missile and drone attacks. Any explosions heard are result of air defense systems intercepting hostile targets.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035860093246332995"
+    },
+    {
+      "id": "2035729522453041331",
+      "timestamp": "2026-03-22T14:45:14.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "drone",
+      "severity": "medium",
+      "title": "7 enemy drones detected, 4 intercepted in 24 hours",
+      "description": "Kuwaiti forces detected 7 enemy drones in airspace over past 24 hours, successfully intercepted and destroyed 4, while 3 fell outside threat zone",
+      "location": "Kuwaiti airspace",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035729522453041331"
+    },
+    {
+      "id": "2035368288411107540",
+      "timestamp": "2026-03-21T14:49:49.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "medium",
+      "title": "Kuwait intercepts 9 ballistic missiles and 4 drones",
+      "description": "Kuwaiti air defense systems successfully intercepted all 9 hostile ballistic missiles and 4 drones detected in Kuwaiti airspace over the past 24 hours, with no damage reported",
+      "location": "Kuwait airspace",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035368288411107540"
+    },
+    {
+      "id": "2035192302541447364",
+      "timestamp": "2026-03-21T03:10:31.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Hostile Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Any explosions heard are from air defense systems engaging hostile targets. Public urged to follow safety instructions.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035192302541447364"
+    },
+    {
+      "id": "2035176756475248981",
+      "timestamp": "2026-03-21T02:08:45.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Hostile Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosion sounds heard are from air defense interceptions. Public urged to follow safety instructions.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035176756475248981"
+    },
+    {
+      "id": "2035096412313026698",
+      "timestamp": "2026-03-20T20:49:29.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Hostile Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosion sounds are from air defense systems intercepting targets.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035096412313026698"
+    },
+    {
+      "id": "2035083305855721684",
+      "timestamp": "2026-03-20T19:57:24.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Air Defenses Responding to Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosions heard are from interception activities.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035083305855721684"
+    },
+    {
+      "id": "2035005964458270799",
+      "timestamp": "2026-03-20T14:50:05.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait intercepts Iranian ballistic missile and 15 drones",
+      "description": "Kuwait's air defense detected and destroyed 1 ballistic missile and intercepted 15 out of 25 hostile drones in past 24 hours. 8 drones fell outside threat zone, 2 targeted civilian facilities.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2035005964458270799"
+    },
+    {
+      "id": "2034915712024629354",
+      "timestamp": "2026-03-20T08:51:27.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Air Defenses Responding to Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosions may be heard as air defense systems engage hostile targets. Public urged to follow safety instructions.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2034915712024629354"
+    },
+    {
+      "id": "2034828255086206996",
+      "timestamp": "2026-03-20T03:03:55.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Hostile Missile and Drone Attacks",
+      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Explosions heard are result of air defense systems intercepting threats. Public urged to follow safety instructions.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2034828255086206996"
+    },
+    {
+      "id": "2034808457472229713",
+      "timestamp": "2026-03-20T01:45:15.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Responding to Missile and Drone Threats",
+      "description": "Kuwaiti air defenses are currently responding to hostile missile and drone attacks. Any explosions heard are the result of air defense systems intercepting hostile targets.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2034808457472229713"
+    },
     {
       "id": "2031857388580426079",
       "timestamp": "2026-03-11T22:18:46.000Z",
