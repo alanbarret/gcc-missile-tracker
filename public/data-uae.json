@@ -136,13 +136,26 @@
       "description": "Iranian missile attack resulted in casualties during routine mission"
     }
   ],
-  "lastUpdated": "2026-03-25T16:01:36.226Z",
+  "lastUpdated": "2026-03-26T00:00:32.567Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2036759446676992421"
+      "lastTweetId": "2036940642559951208"
     }
   },
   "alerts": [
+    {
+      "id": "2036940642559951208",
+      "timestamp": "2026-03-25T22:57:48.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Air Defenses Responding to Iranian Missile and Drone Threats",
+      "description": "UAE air defenses are currently intercepting incoming ballistic missiles and drones from Iran. Sounds heard across various areas are from air defense systems and fighter jets intercepting threats.",
+      "location": "Various areas across UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2036940642559951208"
+    },
     {
       "id": "2036759446676992421",
       "timestamp": "2026-03-25T10:57:47.000Z",
@@ -389,19 +402,6 @@
       "location": "Various areas across UAE",
       "verified": true,
       "url": "https://x.com/modgovae/status/2035549299514527770"
-    },
-    {
-      "id": "2035391297721356391",
-      "timestamp": "2026-03-21T16:21:15.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "interception",
-      "severity": "critical",
-      "title": "UAE Air Defenses Responding to Iranian Missile and Drone Attacks",
-      "description": "UAE air defense systems are currently intercepting ballistic missiles and drones from Iran. Sounds heard across the country are from air defense interceptions.",
-      "location": "Multiple areas across UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2035391297721356391"
     }
   ]
 }
