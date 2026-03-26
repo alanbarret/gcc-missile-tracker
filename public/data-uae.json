@@ -7,16 +7,16 @@
     "lng": 54.3773
   },
   "cumulative": {
-    "ballisticDetected": 337,
-    "ballisticIntercepted": 293,
+    "ballisticDetected": 382,
+    "ballisticIntercepted": 323,
     "ballisticSea": 18,
     "ballisticImpacted": 3,
     "cruiseDetected": 8,
     "cruiseIntercepted": 8,
     "cruiseSea": 0,
     "cruiseImpacted": 0,
-    "dronesDetected": 1817,
-    "dronesIntercepted": 1626,
+    "dronesDetected": 1850,
+    "dronesIntercepted": 1648,
     "dronesSea": 0,
     "dronesImpacted": 90,
     "killed": 0,
@@ -124,6 +124,17 @@
       "dronesIntercepted": 18,
       "dronesImpacted": 0,
       "total": 27
+    },
+    {
+      "date": "2026-03-26",
+      "label": "26 Mar",
+      "ballisticDetected": 45,
+      "ballisticIntercepted": 30,
+      "ballisticImpacted": 0,
+      "dronesDetected": 33,
+      "dronesIntercepted": 22,
+      "dronesImpacted": 0,
+      "total": 78
     }
   ],
   "impactSites": [
@@ -136,13 +147,52 @@
       "description": "Iranian missile attack resulted in casualties during routine mission"
     }
   ],
-  "lastUpdated": "2026-03-26T08:00:39.328Z",
+  "lastUpdated": "2026-03-26T16:00:44.456Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2037049853390532961"
+      "lastTweetId": "2037156273112961079"
     }
   },
   "alerts": [
+    {
+      "id": "2037156273112961079",
+      "timestamp": "2026-03-26T13:14:38.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "missile",
+      "severity": "high",
+      "title": "UAE Air Defences Engaged Iranian Missile and Drone Attacks",
+      "description": "UAE air defences engaged 15 Iranian ballistic missiles and 11 UAVs. Cumulative statistics show 372 ballistic missiles, 15 cruise missiles, and 1826 UAVs engaged since the start of Iranian aggression.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2037156273112961079"
+    },
+    {
+      "id": "2037155581388349815",
+      "timestamp": "2026-03-26T13:11:53.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "critical",
+      "title": "UAE intercepts 15 ballistic missiles and 11 UAVs from Iran",
+      "description": "UAE air defences successfully engaged 15 ballistic missiles and 11 UAVs launched from Iran. Since Iranian attacks began, UAE has engaged 372 ballistic missiles, 15 cruise missiles, and 1826 UAVs total. Attacks resulted in 3 military casualties and 169 injuries.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2037155581388349815"
+    },
+    {
+      "id": "2037146590260191337",
+      "timestamp": "2026-03-26T12:36:10.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "high",
+      "title": "UAE Air Defenses Intercept Iranian Ballistic Missiles and Drones",
+      "description": "UAE air defenses successfully intercepted 15 ballistic missiles and 11 drones from Iran. Since Iranian attacks began, total intercepted: 372 ballistic missiles, 15 cruise missiles, and 1826 drones. Attack resulted in 2 military casualties and 169 civilian injuries.",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2037146590260191337"
+    },
     {
       "id": "2037049853390532961",
       "timestamp": "2026-03-26T06:11:46.000Z",
@@ -363,45 +413,6 @@
       "location": "Various areas across UAE",
       "verified": true,
       "url": "https://x.com/modgovae/status/2035847500142391577"
-    },
-    {
-      "id": "2035678974156865919",
-      "timestamp": "2026-03-22T11:24:23.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "missile",
-      "severity": "high",
-      "title": "UAE Air Defences Engaged Iranian Attacks",
-      "description": "UAE air defenses engaged Iranian ballistic missiles, cruise missiles and UAVs. Daily totals: 4 ballistic missiles, 25 UAVs. Cumulative statistics show 345 ballistic missiles, 15 cruise missiles, and 1773 UAVs since Iranian aggression began.",
-      "location": "UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2035678974156865919"
-    },
-    {
-      "id": "2035678544970633367",
-      "timestamp": "2026-03-22T11:22:40.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "interception",
-      "severity": "medium",
-      "title": "UAE intercepts 4 ballistic missiles and 25 UAVs from Iran",
-      "description": "UAE air defense systems successfully engaged 4 ballistic missiles and 25 UAVs launched from Iran on March 22, 2026. Total cumulative engagements now stand at 345 ballistic missiles, 15 cruise missiles and 1773 UAVs since Iranian aggression began.",
-      "location": "UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2035678544970633367"
-    },
-    {
-      "id": "2035678131433111727",
-      "timestamp": "2026-03-22T11:21:02.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "interception",
-      "severity": "high",
-      "title": "UAE Air Defenses Intercept Iranian Missiles and Drones",
-      "description": "UAE air defenses successfully intercepted 4 ballistic missiles and 25 drones from Iran. Since Iranian attacks began, UAE has dealt with 345 ballistic missiles, 15 cruise missiles, and 1773 drones total. Attacks resulted in 2 military casualties, 6 civilian deaths, and 160 injuries.",
-      "location": "UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2035678131433111727"
     }
   ]
 }

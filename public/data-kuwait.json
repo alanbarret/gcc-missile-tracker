@@ -102,6 +102,17 @@
       "dronesIntercepted": 6,
       "dronesImpacted": 3,
       "total": 29
+    },
+    {
+      "date": "2026-03-26",
+      "label": "26 Mar",
+      "ballisticDetected": 6,
+      "ballisticIntercepted": 0,
+      "ballisticImpacted": 6,
+      "dronesDetected": 1,
+      "dronesIntercepted": 1,
+      "dronesImpacted": 0,
+      "total": 7
     }
   ],
   "impactSites": [
@@ -130,13 +141,26 @@
       "description": "2 drones targeted civil installations"
     }
   ],
-  "lastUpdated": "2026-03-26T04:00:31.703Z",
+  "lastUpdated": "2026-03-26T16:00:52.050Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2036974278084616365"
+      "lastTweetId": "2037179030948978837"
     }
   },
   "alerts": [
+    {
+      "id": "2037179030948978837",
+      "timestamp": "2026-03-26T14:45:04.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "missile",
+      "severity": "medium",
+      "title": "6 Ballistic Missiles Detected in Kuwaiti Airspace",
+      "description": "Kuwait Armed Forces detected 6 hostile ballistic missiles in Kuwaiti airspace in the past 24 hours, all fell outside threat zone. 1 drone was also detected and intercepted.",
+      "location": "Kuwaiti airspace",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2037179030948978837"
+    },
     {
       "id": "2036974278084616365",
       "timestamp": "2026-03-26T01:11:27.000Z",
@@ -383,19 +407,6 @@
       "location": "Kuwait",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2034828255086206996"
-    },
-    {
-      "id": "2034808457472229713",
-      "timestamp": "2026-03-20T01:45:15.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "high",
-      "title": "Kuwait Air Defenses Responding to Missile and Drone Threats",
-      "description": "Kuwaiti air defenses are currently responding to hostile missile and drone attacks. Any explosions heard are the result of air defense systems intercepting hostile targets.",
-      "location": "Kuwait",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2034808457472229713"
     }
   ]
 }
