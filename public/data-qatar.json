@@ -138,13 +138,26 @@
       "description": "Ballistic missile impact caused fire, firefighting operations ongoing"
     }
   ],
-  "lastUpdated": "2026-03-29T08:02:03.093Z",
+  "lastUpdated": "2026-03-29T20:00:38.025Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2037904441609986260"
+      "lastTweetId": "2038267780412129734"
     }
   },
   "alerts": [
+    {
+      "id": "2038267780412129734",
+      "timestamp": "2026-03-29T14:51:22.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "drone",
+      "severity": "medium",
+      "title": "Qatar intercepts Iranian drone attack",
+      "description": "Qatar's Ministry of Defense announces that the state was attacked by a number of drones from Iran on Sunday. Qatari armed forces successfully intercepted all drones with God's blessing.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2038267780412129734"
+    },
     {
       "id": "2037904441609986260",
       "timestamp": "2026-03-28T14:47:35.000Z",
