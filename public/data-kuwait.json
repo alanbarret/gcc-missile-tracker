@@ -15,10 +15,10 @@
     "cruiseIntercepted": 0,
     "cruiseSea": 0,
     "cruiseImpacted": 0,
-    "dronesDetected": 24,
+    "dronesDetected": 37,
     "dronesIntercepted": 5,
     "dronesSea": 0,
-    "dronesImpacted": 7,
+    "dronesImpacted": 8,
     "killed": 0,
     "injured": 0
   },
@@ -146,6 +146,17 @@
       "dronesIntercepted": null,
       "dronesImpacted": null,
       "total": 26
+    },
+    {
+      "date": "2026-03-30",
+      "label": "30 Mar",
+      "ballisticDetected": 0,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 13,
+      "dronesIntercepted": null,
+      "dronesImpacted": 1,
+      "total": 13
     }
   ],
   "impactSites": [
@@ -184,15 +195,32 @@
     {
       "name": "Military camp",
       "description": "One of the camps was targeted"
+    },
+    {
+      "name": "Power Station",
+      "description": "Service building at one of the electrical power stations was targeted"
     }
   ],
-  "lastUpdated": "2026-03-29T20:00:47.442Z",
+  "lastUpdated": "2026-03-30T20:00:43.098Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2038266252154589653"
+      "lastTweetId": "2038628736212291918"
     }
   },
   "alerts": [
+    {
+      "id": "2038628736212291918",
+      "timestamp": "2026-03-30T14:45:41.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "drone",
+      "severity": "high",
+      "title": "13 Hostile Drones Detected, Power Station Hit",
+      "description": "Kuwaiti forces detected and engaged 13 hostile drones within 24 hours, resulting in damage to a service building at an electrical power station",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2038628736212291918"
+    },
     {
       "id": "2038266252154589653",
       "timestamp": "2026-03-29T14:45:18.000Z",
@@ -439,19 +467,6 @@
       "location": "Kuwaiti airspace",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2035729522453041331"
-    },
-    {
-      "id": "2035368288411107540",
-      "timestamp": "2026-03-21T14:49:49.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "medium",
-      "title": "Kuwait intercepts 9 ballistic missiles and 4 drones",
-      "description": "Kuwaiti air defense systems successfully intercepted all 9 hostile ballistic missiles and 4 drones detected in Kuwaiti airspace over the past 24 hours, with no damage reported",
-      "location": "Kuwait airspace",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2035368288411107540"
     }
   ]
 }
