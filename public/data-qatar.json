@@ -136,15 +136,32 @@
     {
       "name": "Ras Laffan Industrial City",
       "description": "Ballistic missile impact caused fire, firefighting operations ongoing"
+    },
+    {
+      "name": "Qatar Energy Oil Tanker",
+      "description": "Oil tanker leased to Qatar Energy hit by cruise missile in Qatar's economic waters"
     }
   ],
-  "lastUpdated": "2026-03-30T20:00:35.470Z",
+  "lastUpdated": "2026-04-02T12:01:44.101Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2038630932631232593"
+      "lastTweetId": "2039235844545139122"
     }
   },
   "alerts": [
+    {
+      "id": "2039235844545139122",
+      "timestamp": "2026-04-01T06:58:07.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "critical",
+      "title": "Iranian Cruise Missiles Target Qatar",
+      "description": "Qatar targeted by 3 cruise missiles from Iran. Armed forces intercepted 2 missiles, third hit oil tanker in Qatar's economic waters.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2039235844545139122"
+    },
     {
       "id": "2038630932631232593",
       "timestamp": "2026-03-30T14:54:24.000Z",
@@ -391,19 +408,6 @@
       "location": "Qatar",
       "verified": true,
       "url": "https://x.com/MOD_Qatar/status/2031328683756019863"
-    },
-    {
-      "id": "2030992408633393596",
-      "timestamp": "2026-03-09T13:01:38.000Z",
-      "source": "Qatar Ministry of Defence",
-      "sourceIcon": "🇶🇦",
-      "type": "interception",
-      "severity": "critical",
-      "title": "Qatar intercepts Iranian ballistic missiles and drones",
-      "description": "Qatar's Ministry of Defence reports successful interception of 17 ballistic missiles and 6 drones launched by Iran, with no casualties recorded",
-      "location": "Qatar",
-      "verified": true,
-      "url": "https://x.com/MOD_Qatar/status/2030992408633393596"
     }
   ]
 }
