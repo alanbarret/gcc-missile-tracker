@@ -142,13 +142,39 @@
       "description": "Oil tanker leased to Qatar Energy hit by cruise missile in Qatar's economic waters"
     }
   ],
-  "lastUpdated": "2026-04-02T12:01:44.101Z",
+  "lastUpdated": "2026-04-04T20:01:14.558Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2039235844545139122"
+      "lastTweetId": "2040078132573561276"
     }
   },
   "alerts": [
+    {
+      "id": "2040078132573561276",
+      "timestamp": "2026-04-03T14:45:04.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "drone",
+      "severity": "high",
+      "title": "Qatar intercepts Iranian drone attack",
+      "description": "Qatar Ministry of Defense announces that Qatar was attacked by a number of drones from Iran today Friday, and Qatari armed forces successfully intercepted all drones",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2040078132573561276"
+    },
+    {
+      "id": "2039716865438556252",
+      "timestamp": "2026-04-02T14:49:31.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "drone",
+      "severity": "medium",
+      "title": "Qatar intercepts Iranian drone attack",
+      "description": "Qatar's Ministry of Defense announces that the country was attacked by drones from Iran on Thursday. Armed forces successfully intercepted all drones with God's blessing.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2039716865438556252"
+    },
     {
       "id": "2039235844545139122",
       "timestamp": "2026-04-01T06:58:07.000Z",
@@ -382,32 +408,6 @@
       "location": "Qatar",
       "verified": true,
       "url": "https://x.com/MOD_Qatar/status/2031443048157028515"
-    },
-    {
-      "id": "2031404661614199239",
-      "timestamp": "2026-03-10T16:19:47.000Z",
-      "source": "Qatar Ministry of Defence",
-      "sourceIcon": "🇶🇦",
-      "type": "interception",
-      "severity": "high",
-      "title": "Qatar Successfully Intercepts 5 Iranian Ballistic Missiles",
-      "description": "Qatar's Ministry of Defence reports that 5 ballistic missiles launched from Iran this Tuesday afternoon were successfully intercepted by Qatari armed forces with no casualties reported.",
-      "location": "Qatar",
-      "verified": true,
-      "url": "https://x.com/MOD_Qatar/status/2031404661614199239"
-    },
-    {
-      "id": "2031328683756019863",
-      "timestamp": "2026-03-10T11:17:53.000Z",
-      "source": "Qatar Ministry of Defence",
-      "sourceIcon": "🇶🇦",
-      "type": "interception",
-      "severity": "high",
-      "title": "Qatar Armed Forces Intercept Missile Attack",
-      "description": "Qatar Ministry of Defense announces that armed forces successfully intercepted a missile attack targeting the State of Qatar",
-      "location": "Qatar",
-      "verified": true,
-      "url": "https://x.com/MOD_Qatar/status/2031328683756019863"
     }
   ]
 }
