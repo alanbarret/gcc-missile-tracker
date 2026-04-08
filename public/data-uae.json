@@ -7,16 +7,16 @@
     "lng": 54.3773
   },
   "cumulative": {
-    "ballisticDetected": 877,
-    "ballisticIntercepted": 653,
+    "ballisticDetected": 894,
+    "ballisticIntercepted": 670,
     "ballisticSea": 18,
     "ballisticImpacted": 3,
     "cruiseDetected": 8,
     "cruiseIntercepted": 8,
     "cruiseSea": 0,
     "cruiseImpacted": 0,
-    "dronesDetected": 4355,
-    "dronesIntercepted": 3723,
+    "dronesDetected": 4390,
+    "dronesIntercepted": 3758,
     "dronesSea": 0,
     "dronesImpacted": 90,
     "killed": 0,
@@ -290,13 +290,26 @@
       "description": "Iranian missile attack resulted in casualties during routine mission"
     }
   ],
-  "lastUpdated": "2026-04-08T12:00:58.038Z",
+  "lastUpdated": "2026-04-08T16:00:30.715Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2041835088053420543"
+      "lastTweetId": "2041858330277367962"
     }
   },
   "alerts": [
+    {
+      "id": "2041858330277367962",
+      "timestamp": "2026-04-08T12:38:56.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "interception",
+      "severity": "medium",
+      "title": "Iranian attacks since ceasefire successfully intercepted",
+      "description": "UAE Ministry of Defence reports that Iranian attacks since the ceasefire began totaled 17 ballistic missiles and 35 drones, all successfully intercepted by air defenses",
+      "location": "UAE",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2041858330277367962"
+    },
     {
       "id": "2041835088053420543",
       "timestamp": "2026-04-08T11:06:35.000Z",
@@ -543,19 +556,6 @@
       "location": "UAE",
       "verified": true,
       "url": "https://x.com/modgovae/status/2040747625532772554"
-    },
-    {
-      "id": "2040746340746240266",
-      "timestamp": "2026-04-05T11:00:17.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "interception",
-      "severity": "high",
-      "title": "UAE Air Defenses Intercept 60 Iranian Projectiles",
-      "description": "UAE air defenses successfully intercepted 9 ballistic missiles, 1 cruise missile, and 50 drones from Iran. Since Iranian attacks began, total casualties include 2 martyrs and 217 injuries.",
-      "location": "UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2040746340746240266"
     }
   ]
 }

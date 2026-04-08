@@ -7,7 +7,7 @@
     "lng": 47.9774
   },
   "cumulative": {
-    "ballisticDetected": 68,
+    "ballisticDetected": 72,
     "ballisticIntercepted": 7,
     "ballisticSea": 0,
     "ballisticImpacted": 0,
@@ -15,7 +15,7 @@
     "cruiseIntercepted": 0,
     "cruiseSea": 0,
     "cruiseImpacted": 0,
-    "dronesDetected": 211,
+    "dronesDetected": 253,
     "dronesIntercepted": 5,
     "dronesSea": 0,
     "dronesImpacted": 8,
@@ -256,6 +256,17 @@
       "dronesIntercepted": null,
       "dronesImpacted": null,
       "total": 17
+    },
+    {
+      "date": "2026-04-08",
+      "label": "8 Apr",
+      "ballisticDetected": 4,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 42,
+      "dronesIntercepted": null,
+      "dronesImpacted": null,
+      "total": 46
     }
   ],
   "impactSites": [
@@ -300,13 +311,26 @@
       "description": "Service building at one of the electrical power stations was targeted"
     }
   ],
-  "lastUpdated": "2026-04-08T12:01:07.367Z",
+  "lastUpdated": "2026-04-08T16:00:45.255Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2041812167419122005"
+      "lastTweetId": "2041890113723011509"
     }
   },
   "alerts": [
+    {
+      "id": "2041890113723011509",
+      "timestamp": "2026-04-08T14:45:14.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "interception",
+      "severity": "high",
+      "title": "Kuwait Air Defenses Engage 4 Ballistic Missiles and 42 Drones",
+      "description": "Kuwaiti armed forces detected and dealt with 4 hostile ballistic missiles and 42 hostile drones in Kuwaiti airspace over the past 24 hours according to approved procedures",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2041890113723011509"
+    },
     {
       "id": "2041812167419122005",
       "timestamp": "2026-04-08T09:35:30.000Z",
@@ -553,19 +577,6 @@
       "location": "Kuwait",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2039823347408678932"
-    },
-    {
-      "id": "2039715183283580990",
-      "timestamp": "2026-04-02T14:42:50.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "medium",
-      "title": "Kuwait Air Defenses Engage Iranian Missiles and Drones",
-      "description": "Kuwaiti air defenses detected and engaged 2 cruise missiles and 13 drones in Kuwaiti airspace over the past 24 hours. Cumulative statistics show 312 ballistic missiles, 7 cruise missiles, and 664 UAVs since Iranian aggression began.",
-      "location": "Kuwaiti airspace",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2039715183283580990"
     }
   ]
 }

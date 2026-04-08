@@ -142,13 +142,26 @@
       "description": "Oil tanker leased to Qatar Energy hit by cruise missile in Qatar's economic waters"
     }
   ],
-  "lastUpdated": "2026-04-08T08:03:03.920Z",
+  "lastUpdated": "2026-04-08T16:00:38.438Z",
   "sources": {
     "MOD_Qatar": {
-      "lastTweetId": "2041671618871820635"
+      "lastTweetId": "2041890095507136962"
     }
   },
   "alerts": [
+    {
+      "id": "2041890095507136962",
+      "timestamp": "2026-04-08T14:45:09.000Z",
+      "source": "Qatar Ministry of Defence",
+      "sourceIcon": "🇶🇦",
+      "type": "missile",
+      "severity": "high",
+      "title": "Qatar Successfully Intercepts Iranian Ballistic Missile Attack",
+      "description": "Qatar's Ministry of Defence announces successful interception of 7 ballistic missiles and drones launched from Iran. All projectiles were intercepted by armed forces with no impacts reported.",
+      "location": "Qatar",
+      "verified": true,
+      "url": "https://x.com/MOD_Qatar/status/2041890095507136962"
+    },
     {
       "id": "2041671618871820635",
       "timestamp": "2026-04-08T00:17:01.000Z",
@@ -395,19 +408,6 @@
       "location": "Qatar",
       "verified": true,
       "url": "https://x.com/MOD_Qatar/status/2033538016522703129"
-    },
-    {
-      "id": "2031823609648279990",
-      "timestamp": "2026-03-11T20:04:32.000Z",
-      "source": "Qatar Ministry of Defence",
-      "sourceIcon": "🇶🇦",
-      "type": "missile",
-      "severity": "critical",
-      "title": "Iranian Attack on Qatar",
-      "description": "Qatar attacked with 9 ballistic missiles and drones from Iran. Armed forces successfully intercepted all drones and 8 ballistic missiles, with one missile falling in an unpopulated area.",
-      "location": "Qatar",
-      "verified": true,
-      "url": "https://x.com/MOD_Qatar/status/2031823609648279990"
     }
   ]
 }
