@@ -24,6 +24,17 @@
   },
   "daily": [
     {
+      "date": "2024-10-01",
+      "label": "1 Oct",
+      "ballisticDetected": null,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 28,
+      "dronesIntercepted": 28,
+      "dronesImpacted": 0,
+      "total": 28
+    },
+    {
       "date": "2026-03-08",
       "label": "8 Mar",
       "ballisticDetected": 7,
@@ -289,13 +300,26 @@
       "description": "Service building at one of the electrical power stations was targeted"
     }
   ],
-  "lastUpdated": "2026-04-08T08:04:14.573Z",
+  "lastUpdated": "2026-04-08T12:01:07.367Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2041665911115989464"
+      "lastTweetId": "2041812167419122005"
     }
   },
   "alerts": [
+    {
+      "id": "2041812167419122005",
+      "timestamp": "2026-04-08T09:35:30.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "drone",
+      "severity": "high",
+      "title": "Kuwait intercepts 28 Iranian drones",
+      "description": "Kuwaiti air defenses dealt with 28 Iranian drones in intensive attacks targeting the state since 8 AM today",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2041812167419122005"
+    },
     {
       "id": "2041665911115989464",
       "timestamp": "2026-04-07T23:54:20.000Z",
@@ -542,19 +566,6 @@
       "location": "Kuwaiti airspace",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2039715183283580990"
-    },
-    {
-      "id": "2039353368712261784",
-      "timestamp": "2026-04-01T14:45:07.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "medium",
-      "title": "Kuwait Air Defenses Engage Iranian Missiles and Drones",
-      "description": "Kuwaiti forces detected and dealt with 3 cruise missiles and 15 hostile drones in the past 24 hours according to established procedures",
-      "location": "Kuwaiti airspace",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2039353368712261784"
     }
   ]
 }
