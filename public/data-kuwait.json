@@ -311,13 +311,26 @@
       "description": "Service building at one of the electrical power stations was targeted"
     }
   ],
-  "lastUpdated": "2026-04-08T16:00:45.255Z",
+  "lastUpdated": "2026-04-09T16:00:33.557Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2042194940877287702"
+      "lastTweetId": "2042252905885913289"
     }
   },
   "alerts": [
+    {
+      "id": "2042252905885913289",
+      "timestamp": "2026-04-09T14:46:50.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "info",
+      "severity": "low",
+      "title": "No Operational Developments in Past 24 Hours",
+      "description": "Kuwait Ministry of Defence reports no new incidents or operational developments in the past 24 hours. Armed forces remain at highest state of readiness and preparedness.",
+      "location": "Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2042252905885913289"
+    },
     {
       "id": "2041890113723011509",
       "timestamp": "2026-04-08T14:45:14.000Z",
@@ -564,19 +577,6 @@
       "location": "Kuwait",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2039863361978925501"
-    },
-    {
-      "id": "2039823347408678932",
-      "timestamp": "2026-04-02T21:52:38.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "high",
-      "title": "Kuwait Air Defenses Responding to Hostile Missile and Drone Attacks",
-      "description": "Kuwaiti air defense systems are currently intercepting hostile missile and drone attacks. Any explosions heard are from air defense systems intercepting targets. Public urged to follow safety instructions.",
-      "location": "Kuwait",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2039823347408678932"
     }
   ]
 }
