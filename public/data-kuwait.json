@@ -24,6 +24,17 @@
   },
   "daily": [
     {
+      "date": "2024-01-15",
+      "label": "15 Jan",
+      "ballisticDetected": null,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 2,
+      "dronesIntercepted": null,
+      "dronesImpacted": 2,
+      "total": 2
+    },
+    {
       "date": "2024-10-01",
       "label": "1 Oct",
       "ballisticDetected": null,
@@ -324,15 +335,45 @@
     {
       "name": "Vital facilities",
       "description": "Multiple vital installations targeted by drone attacks"
+    },
+    {
+      "name": "Northern Border Centers",
+      "description": "Two northern terrestrial border centers of Kuwait targeted by fiber-optic guided explosive drones"
     }
   ],
-  "lastUpdated": "2026-04-13T16:00:26.339Z",
+  "lastUpdated": "2026-05-03T08:00:19.528Z",
   "sources": {
     "KuwaitArmyGHQ": {
-      "lastTweetId": "2044063020339360070"
+      "lastTweetId": "2049131725662404693"
     }
   },
   "alerts": [
+    {
+      "id": "2049131725662404693",
+      "timestamp": "2026-04-28T14:20:49.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "info",
+      "severity": "low",
+      "title": "Kuwait Defense Minister meets British Defense official",
+      "description": "Kuwait Defense Minister Sheikh Abdullah Ali Abdullah Al-Salem Al-Sabah received the British State Minister for Defense Preparedness and Defense Industry at Bayan Palace",
+      "location": "Kuwait - Bayan Palace",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2049131725662404693"
+    },
+    {
+      "id": "2047613443843203195",
+      "timestamp": "2026-04-24T09:47:42.000Z",
+      "source": "Kuwait Ministry of Defence",
+      "sourceIcon": "🇰🇼",
+      "type": "drone",
+      "severity": "critical",
+      "title": "Explosive Drone Attack on Kuwait Border Centers",
+      "description": "Two explosive drones guided by fiber-optic cables from Iraq targeted northern border centers in Kuwait",
+      "location": "Northern terrestrial border centers, Kuwait",
+      "verified": true,
+      "url": "https://x.com/KuwaitArmyGHQ/status/2047613443843203195"
+    },
     {
       "id": "2042614875545899315",
       "timestamp": "2026-04-10T14:45:10.000Z",
@@ -566,32 +607,6 @@
       "location": "Kuwait",
       "verified": true,
       "url": "https://x.com/KuwaitArmyGHQ/status/2040124350393639071"
-    },
-    {
-      "id": "2040078154237116637",
-      "timestamp": "2026-04-03T14:45:09.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "high",
-      "title": "Kuwait Air Defenses Engage Iranian Missiles and Drones",
-      "description": "Kuwait air defenses detected and engaged 7 ballistic missiles, 2 cruise missiles, and 26 hostile drones within Kuwaiti airspace in the past 24 hours. Cumulative statistics show 319 ballistic missiles, 9 cruise missiles, and 690 UAVs since the beginning of Iranian aggression.",
-      "location": "Kuwait",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2040078154237116637"
-    },
-    {
-      "id": "2040069010398527718",
-      "timestamp": "2026-04-03T14:08:49.000Z",
-      "source": "Kuwait Ministry of Defence",
-      "sourceIcon": "🇰🇼",
-      "type": "interception",
-      "severity": "high",
-      "title": "Kuwait Air Defense Responding to Missile and Drone Attacks",
-      "description": "Kuwaiti air defenses are currently intercepting hostile missile and drone attacks. Any explosions heard are from air defense systems intercepting hostile targets. Public advised to follow safety instructions.",
-      "location": "Kuwait",
-      "verified": true,
-      "url": "https://x.com/KuwaitArmyGHQ/status/2040069010398527718"
     }
   ]
 }
