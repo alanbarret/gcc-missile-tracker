@@ -278,6 +278,17 @@
       "dronesIntercepted": 70,
       "dronesImpacted": 0,
       "total": 156
+    },
+    {
+      "date": "2026-05-17",
+      "label": "17 May",
+      "ballisticDetected": null,
+      "ballisticIntercepted": null,
+      "ballisticImpacted": null,
+      "dronesDetected": 3,
+      "dronesIntercepted": 2,
+      "dronesImpacted": 1,
+      "total": 3
     }
   ],
   "impactSites": [
@@ -288,15 +299,32 @@
     {
       "name": "Kingdom of Bahrain",
       "description": "Iranian missile attack resulted in casualties during routine mission"
+    },
+    {
+      "name": "Barakah Nuclear Power Plant",
+      "description": "Third UAV struck an electrical generator outside the inner perimeter of the Barakah Nuclear Power Plant in the Al Dhafra Region"
     }
   ],
-  "lastUpdated": "2026-04-09T12:00:43.044Z",
+  "lastUpdated": "2026-05-19T08:08:11.446Z",
   "sources": {
     "modgovae": {
-      "lastTweetId": "2050486209999466904"
+      "lastTweetId": "2056014348993360147"
     }
   },
   "alerts": [
+    {
+      "id": "2056014348993360147",
+      "timestamp": "2026-05-17T14:09:54.000Z",
+      "source": "United Arab Emirates Ministry of Defence",
+      "sourceIcon": "🇦🇪",
+      "type": "drone",
+      "severity": "critical",
+      "title": "UAE Intercepts 3 UAVs, One Strikes Nuclear Plant Area",
+      "description": "UAE air defenses intercepted 2 of 3 UAVs from western border. One struck electrical generator outside Barakah Nuclear Power Plant in Al Dhafra Region.",
+      "location": "Western border, Al Dhafra Region",
+      "verified": true,
+      "url": "https://x.com/modgovae/status/2056014348993360147"
+    },
     {
       "id": "2042196918672191644",
       "timestamp": "2026-04-09T11:04:22.000Z",
@@ -543,19 +571,6 @@
       "location": "UAE - various areas",
       "verified": true,
       "url": "https://x.com/modgovae/status/2040927569424617649"
-    },
-    {
-      "id": "2040905608438915193",
-      "timestamp": "2026-04-05T21:33:09.000Z",
-      "source": "United Arab Emirates Ministry of Defence",
-      "sourceIcon": "🇦🇪",
-      "type": "interception",
-      "severity": "critical",
-      "title": "UAE Air Defenses Engaging Iranian Missile and Drone Attack",
-      "description": "UAE air defense systems are actively intercepting ballistic missiles, cruise missiles, and drones launched from Iran. Sounds heard across the country are from ongoing interception operations.",
-      "location": "Various areas across UAE",
-      "verified": true,
-      "url": "https://x.com/modgovae/status/2040905608438915193"
     }
   ]
 }
